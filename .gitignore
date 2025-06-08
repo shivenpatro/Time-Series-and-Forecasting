@@ -1,0 +1,56 @@
+# Virtual Environment
+venv/
+*.venv/
+env/
+ENV/
+.env/
+.direnv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Data files - if your CSV is very large and you don't want to commit it
+# You might add it here, but for this project, AAPL_stock_data.csv is likely small enough to include.
+# If you had other large data files, you might list them:
+# data/*.big_data_file
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Log files
+*.log
+
+# Test output
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environment variables file
+.envrc

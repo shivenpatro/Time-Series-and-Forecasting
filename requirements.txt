@@ -1,0 +1,17 @@
+pandas
+numpy==1.26.4 # Pinned for TensorFlow and pmdarima compatibility
+matplotlib
+seaborn
+plotly
+scikit-learn
+statsmodels
+prophet
+tensorflow
+yfinance
+pmdarima
+streamlit
+joblib
+# Add streamlit or flask if we proceed with optional deployment
+# For Prophet, you might need to install pystan first depending on your system.
+# If you encounter issues installing Prophet, refer to its official installation guide:
+# https://facebook.github.io/prophet/docs/installation.html
