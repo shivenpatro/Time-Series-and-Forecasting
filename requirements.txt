@@ -1,3 +1,4 @@
+python>=3.12,<3.13 # Specify Python version for Streamlit Cloud
 pandas
 numpy==1.26.4 # Pinned for TensorFlow and pmdarima compatibility
 matplotlib
